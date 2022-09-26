@@ -63,24 +63,24 @@ struct Complex {
 
 };
 
-std::ostream &operator<<(std::ostream &os, const Complex &c);
+inline std::ostream &operator<<(std::ostream &os, const Complex &c);
 
-bool operator>(double d, Complex c);
+inline bool operator>(double d, Complex c);
 
-bool operator<(double d, Complex c);
+inline bool operator<(double d, Complex c);
 
-bool operator>=(double d, Complex c);
+inline bool operator>=(double d, Complex c);
 
-bool operator<=(double d, Complex c);
+inline bool operator<=(double d, Complex c);
 
-bool operator==(double d, Complex c);
+inline bool operator==(double d, Complex c);
 
-bool operator!=(double d, Complex c);
+inline bool operator!=(double d, Complex c);
 
-Complex operator/(double d, Complex c);
+inline Complex operator/(double d, Complex c);
 
-Complex operator*(double d, Complex c);
+inline Complex operator*(double d, Complex c);
 
-Complex operator+(double d, Complex c);
+inline Complex operator+(double d, Complex c);
 
-Complex operator-(double d, Complex c);
+inline Complex operator-(double d, Complex c);
